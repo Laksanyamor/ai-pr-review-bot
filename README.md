@@ -13,6 +13,12 @@ Code review is one of the highest leverage but most time consuming parts of ship
 3. The diff is sent to Claude with a prompt focused on bugs, security issues, and design concerns
 4. Claude's response is posted back to the PR as a comment
 
+## Example
+
+Here's the bot catching a hardcoded secret during its own test run:
+
+![AI review flagging a hardcoded API key](screenshots/ai-review-example.png)
+
 ## Setup
 
 1. Add this repository's `.github/workflows/review.yml` and `scripts/review.js` to your project (or fork this repo).

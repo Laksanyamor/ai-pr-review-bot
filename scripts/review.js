@@ -1,4 +1,3 @@
-const apiKey = "sk-test-12345"; 
 const core = require('@actions/core');
 const github = require('@actions/github');
 
